@@ -1,0 +1,114 @@
+body{
+	margin: 0;
+	font-family: Segoe UI;
+}
+header,
+.my-work,
+.subscribe{
+	padding: 20px 0;
+	background: #23232e;
+	text-align: center;
+	color: white;
+}
+h2{
+	font-size: 50px;
+	text-transform: uppercase;
+}
+header img{
+	width: 8%;
+	margin-bottom: 50px;
+}
+header p{
+	margin-bottom: 150px;
+	line-height: 25px;
+}
+
+header a{
+	border: 1px solid white;
+	border-radius: 50%;
+	padding: 5px 9px;
+}
+.what-i-do,
+.photography,
+footer{
+	text-align: center;
+	color: #464b4f;
+	overflow: hidden;
+}
+.what-i-do > p{
+	font-size: 25px;
+	line-height: 35px;
+}
+.row .col{
+	width: 31.3%;
+	margin: 10px 1%;
+	float: left;
+	text-align: left;
+}
+.my-work{
+	overflow:hidden;
+}
+.my-work .col img{
+	width: 100%;
+}
+.my-work .menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.my-work .menu ul li{
+	display: inline-block;
+}
+.my-work .menu ul li a{
+	color: white;
+	margin: 0 10px;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+.my-work .menu ul li a:hover{
+	border-bottom: 1px solid #7b77c9;
+}
+.my-work .menu{
+	margin-bottom: 15px;
+}
+button{
+	border: none;
+	border-radius: 3px;
+	color: white;
+	background: #7b77c9;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+}
+.space{
+	padding: 0 25%;
+}
+.photography .row .col img{
+	width: 100%;
+}
+.subscribe{
+	padding: 10px 0;
+}
+input{
+	padding: 10px 25px;
+	border-radius: 3px;
+	border: none;
+}
+footer ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+footer{
+	padding: 30px 0 !important;
+}
+footer ul li{
+	display: inline-block;
+}
+footer ul li a{
+	color: #464b4f;
+	font-size: 25px;
+	margin: 0 15px;
+}
+
+
+
